@@ -1,0 +1,25 @@
+{
+  "name": "coding-test",
+  "version": "1.0.0",
+  "description": "Coding test for an interview",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotzipfile/coding-test.git"
+  },
+  "author": "Davy Malone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dotzipfile/coding-test/issues"
+  },
+  "homepage": "https://github.com/dotzipfile/coding-test#readme",
+  "devDependencies": {
+    "expect": "^23.1.0",
+    "mocha": "^5.2.0"
+  }
+}
