@@ -19,19 +19,24 @@ sumFunc.targetSumExistsInTwoNumbers = (arr, targetSum) => {
 
     // Check if a number at the current index + itself is equal to the target
     if(arr[i] + arr[i] === targetSum || arr[j] + arr[j] === targetSum) {
+
       return true;
     } else if(arr[i] + arr[j] > targetSum) {
+
       // Check if the current sum of selected numbers is too large
       j --;
     } else if(arr[i] + arr[j] < targetSum) {
+
       // Check if the current sum of selected numbers is too small
       i ++;
     } else if(arr[i] + arr[j] === targetSum) {
+      
       // Check if the current sum of selected numbers is equal to the target
       return true;
     } else {
+      
       // Return false if none of the above are true
-      return false
+      return false;
     }
   }
 
