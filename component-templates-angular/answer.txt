@@ -1,0 +1,8 @@
+This HTML template provides a navigation menu representing each of the objects in the settingsMenu array.
+
+Within the <nav> tags the <a> link will be repeated for every object in the settingsMenu array 
+and will use the route element in each object to link to the specified views in the Routes array.
+
+The routerLinkActive attribute will determine how each link is styled depending on whether it is active or not.
+
+The <router-outlet> provides a place for the specified view to be rendered.
